@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cahd"
+version = "0.1.0"
+description = ""
+authors = ["lax"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+scipy = "^1.9.3"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
